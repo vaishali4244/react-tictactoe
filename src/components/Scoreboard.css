@@ -1,0 +1,20 @@
+.scoreboard{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px 20px;
+    padding: 20px;
+}
+
+.b-score{
+    background: rgba(0, 0, 255, 0.66);
+    padding: 5px;
+    width: 150px;
+}
+
+.r-score{
+    background: rgba(255, 0, 0, 0.642);
+    width: 150px;
+    padding: 5px;
+}
