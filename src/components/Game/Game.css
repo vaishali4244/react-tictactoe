@@ -1,0 +1,7 @@
+.game .game-board .content {
+    margin: 2rem;
+}
+
+.status .color{
+    font-weight: 600;
+}

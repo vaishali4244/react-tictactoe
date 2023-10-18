@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Scoreboard from "./Scoreboard";
-import Square from "./Square";
-import Status from "./Status";
-import CalculateWinner from "./Winner";
+import Scoreboard from "../Scoreboard/Scoreboard";
+import Square from "../Square/Square";
+import Status from "../Status/Status";
+import CalculateWinner from "../Winner/Winner";
+import "./Game.css";
+
 
 const Game = () => {
   const [squares, setSquares] = useState(Array(9).fill(null));
@@ -55,7 +57,7 @@ const Game = () => {
     <div className="game">
       <div className="game-board">
         <div className="content">
-          <Status winner={winner} nextBlue={nextBlue} />
+          <Status className="status" winner={winner} nextBlue={nextBlue} />
           <button className="reset-btn" onClick={resetGame}>
             RESET
           </button>

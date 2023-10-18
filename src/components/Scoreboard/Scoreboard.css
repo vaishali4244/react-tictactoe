@@ -7,6 +7,10 @@
     padding: 20px;
 }
 
+.scoreboard .btn{
+    border-radius: 15rem;
+}
+
 .b-score{
     background: rgba(0, 0, 255, 0.66);
     padding: 5px;

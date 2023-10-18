@@ -8,7 +8,7 @@ const Status = ({ winner, nextBlue }) => {
         status = "Next Player: " + (nextBlue ? "Blue" : "Red");
     }
 
-    return <div className="status">{status}</div>;
+    return <div className="status"><span className='color'> {status} </span></div>;
 };
 
 export default Status;
